@@ -5,9 +5,9 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
-    "build-prod":"ng build --configuration=production --output-hashing=all",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
+    "build-prod": "ng build --configuration=production",
     "serve:ssr:reactive-form-demo": "node dist/reactive-form-demo/server/server.mjs"
   },
   "private": true,
